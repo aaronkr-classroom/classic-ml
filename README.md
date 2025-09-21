@@ -1,7 +1,18 @@
-# GitHub Codespaces ♥️ Jupyter Notebooks
+# Chp 3-4 Classic ML
 
-Welcome to your shiny new codespace! We've got everything fired up and running for you to explore Python and Jupyter notebooks.
+This chapter applies the classical machine learning models introduced in Chapter 3 to the datasets built in Chapter 2. Using sklearn, we evaluate how well each model performs on held-out test sets. The goal is to build intuition about model behavior and performance relative to one another. Three datasets are used:
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
+1. The iris dataset (original and augmented)
+2. The breast cancer dataset
+3. The MNIST handwritten digits dataset in vector form
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+We will conduct experiments with six models:
+
+1. nearest centroid, 
+2. k-NN, 
+3. naive Bayes, 
+4. decision trees, 
+5. random forests, and 
+6. SVMs
+
+
